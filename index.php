@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -129,9 +130,10 @@
                 </li>
             </ul>
         </section>
-        <section id="contacto" class="container mx-auto py-12">
+        <section class="container mx-auto py-12">
             <h1 class="mb-2 text-xl text-center font-bold">Contactanos!</h1>
-            <form class="bg-black mx-auto w-[580px] text-white flex flex-col gap-4 rounded-lg border border-red-600 p-6" action="contacto/guardar_contacto.php" method="POST">
+            <div id="contacto-mensaje" class="bg-black mx-auto w-[580px] text-white hidden flex-col gap-4 rounded-lg border border-red-600 p-6"></div>
+            <form id="contacto" class="bg-black mx-auto w-[580px] text-white flex flex-col gap-4 rounded-lg border border-red-600 p-6" method="POST">
                 <div class="flex flex-col mb-2">
                     <label for="nombre">
                         Nombre
@@ -145,7 +147,6 @@
                     <input class="px-2 border-b-red-600 border-b-2 bg-transparent rounded-lg" type="text" name="email" id="email">
                 </div>
                 <div class="flex flex-col mb-2">
-
                     <label for="mensaje">
                         Mensaje
                     </label>
@@ -156,6 +157,33 @@
                 </div>
             </form>
         </section>
+        <script>
+            $(document).ready(function() {
+                $('#contacto').submit(function(e) {
+                    e.preventDefault();
+
+                    console.log($(this).serialize())
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'contacto/guardar_contacto.php',
+                        data: $(this).serialize(),
+                        success: (response) => {
+                            $('#contacto-mensaje').html('<p>' + response + '</p>');
+                            $('#contacto-mensaje').css({
+                                display: "flex"
+                            })
+                            $('#contacto').css({
+                                display: "none"
+                            })
+                        },
+                        error: (err) => {
+                            $('#contacto-mensaje').html('<p>Hubo un problema al intentar procesar su solicitud: ' + error + '</p>')
+                        }
+                    })
+                })
+            });
+        </script>
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
             <a href="#">
                 ⇧

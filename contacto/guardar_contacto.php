@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
     // Ejecución de la instrucción y validación
     if ($sql->execute() === TRUE) {
-        echo "Contacto guardado exitosamente";
+        echo "Formulario de contacto enviado exitosamente :)";
     } else {
         echo "Error: " . $sql->error;
     }
