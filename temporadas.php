@@ -35,7 +35,7 @@
                         <a href="la-serie.php">La Serie</a>
                     </li>
                     <li>
-                        <a href="temporadas.php">Temporadas</a>
+                        <a class="bg-red-600 rounded-lg py-1 px-3" href="temporadas.php">Temporadas</a>
                     </li>
                     <li>
                         <a href="personajes.php">Personajes</a>
@@ -52,11 +52,13 @@
         </div>
     </header>
     <main class="temporadas">
-        <section class="titulo">
-            <h1>Temporadas</h1>
+        <section class="bg-red-600">
+            <div class="container mx-auto py-12">
+                <h1 class="text-3xl font-bold text-center">Temporadas</h1>
+            </div>
         </section>
-        <section>
 
+        <section>
             <ul class="lista-items">
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -118,8 +120,7 @@
                 </li>
             </ul>
         </section>
-
-        <button class="scroll-arriba">
+        <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
             <a href="#">
                 ⇧
             </a>

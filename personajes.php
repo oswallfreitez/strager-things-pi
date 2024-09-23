@@ -38,7 +38,7 @@
                         <a href="temporadas.php">Temporadas</a>
                     </li>
                     <li>
-                        <a href="personajes.php">Personajes</a>
+                        <a class="bg-red-600 rounded-lg py-1 px-3" href="personajes.php">Personajes</a>
                     </li>
                     <li>
                         <a href="fanart.php">Fan art</a>
@@ -52,9 +52,10 @@
         </div>
     </header>
     <main>
-        <section class="titulo">
-            <h1>Personajes</h1>
-
+        <section class="bg-red-600">
+            <div class="container mx-auto py-12">
+                <h1 class="text-3xl font-bold text-center">Personajes</h1>
+            </div>
         </section>
         <section>
 
@@ -204,7 +205,7 @@
         </section>
 
 
-        <button class="scroll-arriba">
+        <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
             <a href="#">
                 ⇧
             </a>
