@@ -172,13 +172,19 @@
                             $('#contacto-mensaje').html('<p>' + response + '</p>');
                             $('#contacto-mensaje').css({
                                 display: "flex"
-                            })
+                            });
                             $('#contacto').css({
                                 display: "none"
-                            })
+                            });
                         },
                         error: (err) => {
-                            $('#contacto-mensaje').html('<p>Hubo un problema al intentar procesar su solicitud: ' + error + '</p>')
+                            $('#contacto-mensaje').html('<p>Hubo un problema al intentar procesar su solicitud: ' + error + '</p>');
+                            $('#contacto-mensaje').css({
+                                display: "flex"
+                            });
+                            $('#contacto').css({
+                                display: "none"
+                            });
                         }
                     })
                 })
