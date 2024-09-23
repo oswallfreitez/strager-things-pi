@@ -1,386 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
-
+    color: #f0f0f0;
 }
 
 body {
-    background-color: #FAF9F9;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
+    background-color: #080c27;
 }
 
-main {
-    
-    grid-area: main;
+.main-background {
     background-image: url("../imagenes/background.jpg");
-    background-size:cover ;
+    background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(0,0,0,0.6)
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
-section {
-    padding: 1.25rem;
-}
-
-h1 {
-    font-size: 2.25rem;
-}
-
-h2 {
-    font-size: 1.75rem;
-}
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Calistoga', sans-serif;
-    font-weight: normal;
-    color: #f0f0f0;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-ul {
-    list-style: none;
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-/* Header */
-header {
-    background-color: black;
-    color: white;
-    padding: 0.625rem 1.25rem;
-    align-items: center;
-    grid-area: header;
+.font-montserrat a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-header #logo img {
-    width: 13.25rem;
-    height: auto;
-    border-top: solid 1px red;
-    border-bottom: solid 1px red;
-    padding: 0.25rem 0;
-}
-
-header #logo a {
-    display: flex;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    padding: 0 0.5rem;
-
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Calistoga', sans-serif;
-    font-weight: normal;
-}
-
-.menu ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    gap: 0.65rem;
-}
-
-.activo {
-    background-color: #ff1515;
-    border-radius: 0.25rem;
-    padding: 0.125rem 0.25rem;
-}
-
-#logo {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-/* Boton volver arriba */
-button {
-    background-color: #444;
-    color: white;
-    border: none;
-    padding: 0.3125rem 1rem;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 0.625rem 0;
-    grid-area: footer;
-}
-
-.scroll-arriba {
-    border-radius: 0.25rem;
-    font-size: larger;
-    position: fixed;
-    bottom: 0.75rem;
-    right: 0.75rem;
-    box-shadow: 0.1rem 0.16rem #ff1515;
-}
-
-.scroll-arriba a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Pagina principal */
-
-.contenido-principal h1 {
-    color: #f0f0f0;
-    text-align: center;
-}
-
-.top-peli-lista {
-    padding: 0;
-}
-
-.top-peli-imagen img {
-    width: 100%;
-}
-
-.top-peli-lista li {
-    border-bottom: solid 1px #ff1515;
-}
-
-.contenedor-principal {
-    background-position: bottom right;
+.hero-background {
+    background-image: url("../imagenes/heroimage.jpg");
     background-size: cover;
-    background-blend-mode: lighten;
-    padding: 1.25rem;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.contenido-principal {
-    background-color: rgba(0, 0, 0, 0.80);
-    color: white;
-    padding: 1rem;
-    border-radius: 0.625rem;
-}
-
-.contenido-principal p {
-    text-align: center;
-}
-
-.video-principal iframe {
-    width: 100%;
-    height: 15rem;
-
-}
-
-/* Barra superior titulo pagina */
-.titulo {
-    background-color: #ff1515;
-    color: #f0f0f0;
-}
-
-.titulo h1 {
-    color: #f0f0f0;
-}
-
-/* Temporadas */
-.temporadas .item-poster img {
-    border: solid #ff1515 0.25rem;
-}
-
-.temporadas .item-contenedor {
-    box-shadow: 0.15rem 0.2rem #ff1515;
-    border: none;
-    background-color: #f0f0f0;
-}
-
-.temporadas .item-contenido h3,
-.temporadas .item-contenido h4,
-.temporadas .item-contenido p {
-    color: black;
-}
-
-.item-poster {
-    flex: 1 1 33%;
-    margin-top: 1.125rem;
-    margin-inline: auto;
-}
-
-.item-contenedor {
-    display: flex;
-    border: solid #ff1515 0.125rem;
-    border-radius: 0.625rem;
-    background-color: #151515;
-    padding: 1.375rem;
-    flex-direction: column;
-    flex: 1 1 100%;
-}
-
-.item-contenido h3,
-.item-contenido p {
-    color: #f0f0f0;
-}
-
-.lista-items {
-    padding: 0;
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-}
-
-.item-poster img {
-    width: 100%;
-    border: solid white 0.25rem;
-}
-
-.item-contenido {
-    flex: 3 3 66%;
-}
-
-/* Fan art */
-.cuadro-carga {
-    border: dashed 0.25rem #ff1515;
-    border-radius: 0.25rem;
-    padding: 4rem 1rem;
-    color: white;
-    text-align: center;
-}
-
-.contenedor-carga {
-    margin-bottom: 3rem;
-}
-
-@media (min-width:768px) {
-    .menu {
-        display: flex;
-        margin-left: 1.125rem
-    }
-
-    header {
-        padding: 0.625rem 1.25rem;
-        display: flex;
-    }
-
-
-    .video-principal iframe {
-        height: 30rem;
-    }
-
-    .lista-items {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .item-contenedor {
-        flex-direction: column;
-        flex: 1 1 40%;
-    }
-
-    .item-contenido {
-        order: 2;
-    }
-
-    .item-poster {
-        order: 1;
-        margin-inline: auto;
-        justify-content: center;
-        display: flex;
-    }
-
-    .item-poster img {
-        height: 15rem;
-        width: auto;
-    }
-
-
-
-    .top-peli-lista {
-        display: flex;
-        gap: 0.5rem;
-    }
-
-    .top-peli-lista li {
-        border: none;
-        flex-grow: 1;
-        flex-basis: 33%;
-    }
-
-    .top-peli-imagen {
-        margin: 0.5rem;
-    }
-
-    .cuadro-carga {
-        padding: 6rem;
-    }
-
-    .cuadro-carga input {
-        font-size: 1.25rem;
-    }
-
-    .texto-principal{
-        max-width: 30rem;
-        margin-inline: auto;
-    }
-
-}
-
-@media (min-width:1024px) {
-    .video-principal {
-        flex: 1 1 48%;
-    }
-
-    .contenido-principal {
-        flex: 1 1 48%;
-    }
-
-    .contenedor-principal {
-        gap: 2rem;
-        flex-direction: row;
-    }
-
-    .item-contenedor {
-        flex: 1 1 20%;
-        max-width: 28rem;
-    }
-
-    .lista-items {
-        justify-content: center;
-    }
-
-
-    .top-peli-lista {
-        gap: 2.5rem;
-    }
-
-    .top-peli-contenedor h1 {
-        text-align: center;
-    }
-
-    .top-peli-lista {
-        justify-content: center;
-    }
-
-    .cuadro-carga {
-        max-width: 40rem;
-        margin-inline: auto;
-    }
+    background-blend-mode: overlay;
 }
