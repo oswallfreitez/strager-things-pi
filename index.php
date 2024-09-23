@@ -132,7 +132,9 @@
         </section>
         <section class="container mx-auto py-12">
             <h1 class="mb-2 text-xl text-center font-bold">Contactanos!</h1>
+
             <div id="contacto-mensaje" class="bg-black mx-auto w-[580px] text-white hidden flex-col gap-4 rounded-lg border border-red-600 p-6"></div>
+            
             <form id="contacto" class="bg-black mx-auto w-[580px] text-white flex flex-col gap-4 rounded-lg border border-red-600 p-6" method="POST">
                 <div class="flex flex-col mb-2">
                     <label for="nombre">
@@ -161,8 +163,6 @@
             $(document).ready(function() {
                 $('#contacto').submit(function(e) {
                     e.preventDefault();
-
-                    console.log($(this).serialize())
 
                     $.ajax({
                         type: 'POST',
