@@ -32,6 +32,9 @@
             <nav class="my-auto font-montserrat">
                 <ul class="flex text-white gap-4">
                     <li>
+                        <a href="la-serie.php">La Serie</a>
+                    </li>
+                    <li>
                         <a href="temporadas.php">Temporadas</a>
                     </li>
                     <li>
@@ -39,6 +42,9 @@
                     </li>
                     <li>
                         <a href="fanart.php">Fan art</a>
+                    </li>
+                    <li>
+                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Login</a>
                     </li>
 
                 </ul>

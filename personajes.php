@@ -5,32 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        fondo: '#080c27',
+                    }
+                }
+            }
+        }
+    </script>
+
     <title>Personajes | Stranger Things</title>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <a href="index.php">
-                <img src="assets/imagenes/Stranger World.png" alt="logo">
+    <header class="bg-black">
+        <div class="container mx-auto flex justify-between align-center py-4">
+            <a class="flex align-center" href="index.php">
+                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="assets/imagenes/Stranger World.png" alt="logo">
             </a>
+
+            <nav class="my-auto font-montserrat">
+                <ul class="flex text-white gap-4">
+                    <li>
+                        <a href="la-serie.php">La Serie</a>
+                    </li>
+                    <li>
+                        <a href="temporadas.php">Temporadas</a>
+                    </li>
+                    <li>
+                        <a href="personajes.php">Personajes</a>
+                    </li>
+                    <li>
+                        <a href="fanart.php">Fan art</a>
+                    </li>
+                    <li>
+                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Login</a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="temporadas.php">Temporadas</a>
-                </li>
-                <li class="activo">
-                    <a href="personajes.php">Personajes</a>
-                </li>
-                <li>
-                    <a href="fanart.php">Fan art</a>
-                </li>
-                
-            </ul>
-        </nav>
     </header>
     <main>
         <section class="titulo">
@@ -38,21 +57,21 @@
 
         </section>
         <section>
-       
+
             <ul class="lista-items">
                 <li class="item-contenedor">
                     <div class="item-contenido">
                         <figure class="item-poster">
-                        <img src="assets/imagenes/eleven.jpg" alt="Eleven">
-                    </figure>
+                            <img src="assets/imagenes/eleven.jpg" alt="Eleven">
+                        </figure>
                         <h3> Eleven</h3>
                         <h4>Interpretado por: Millie Bobby Brown </h4>
                         <p>
                             Eleven, una joven con habilidades psíquicas, es el corazón de la serie. Escapó de un laboratorio gubernamental y se une a un grupo de niños en Hawkins, Indiana. Su búsqueda de identidad y pertenencia la convierte en un personaje icónico. Su relación con Mike Wheeler y su deseo de proteger a sus amigos son aspectos centrales de su personaje.
                         </p>
-                       
+
                     </div>
-                    
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -65,9 +84,9 @@
                         <p>
                             Mike es el líder del grupo de amigos y desarrolla una profunda conexión con Eleven. Su dedicación a encontrarla y su lealtad hacia sus amigos impulsan gran parte de la trama. Mike es un personaje valiente y determinado.
                         </p>
-                     
+
                     </div>
-                   
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -80,9 +99,9 @@
                         <p>
                             Dustin aporta humor y carisma al grupo. Su inteligencia, su amor por la ciencia y su ingenio lo convierten en un personaje entrañable. A pesar de su afección dental y su apariencia peculiar, Dustin demuestra ser un amigo leal y valioso.
                         </p>
-                    
+
                     </div>
-                    
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -94,9 +113,9 @@
 
                         <p>Lucas es el miembro más pragmático del grupo. Su actitud cautelosa a menudo choca con la imprudencia de sus amigos, lo que agrega equilibrio al grupo. Su valentía y determinación son fundamentales para enfrentar las amenazas de Hawkins.
                         </p>
-                    
+
                     </div>
-                   
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -108,9 +127,9 @@
 
                         <p>Will es el niño que desaparece al comienzo de la serie, desencadenando los eventos sobrenaturales. Su lucha por sobrevivir en el Mundo del Revés y la forma en que afecta a su familia y amigos son elementos cruciales de la historia.
                         </p>
-                       
+
                     </div>
-                 
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -122,9 +141,9 @@
 
                         <p>Steve comienza como un personaje antagónico pero se transforma en un aliado invaluable del grupo. Su evolución de chico popular a persona comprensiva y protectora es un aspecto destacado de la serie.
                         </p>
-                       
+
                     </div>
-                  
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -136,9 +155,9 @@
 
                         <p>Max es una adición importante a la pandilla de amigos en Hawkins. Es valiente, segura de sí misma y una patinadora talentosa. A pesar de su actitud inicialmente reservada, Max se convierte en una amiga cercana y aporta una perspectiva fresca al grupo.
                         </p>
-                       
+
                     </div>
-                    
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -150,9 +169,9 @@
 
                         <p>El jefe de policía de Hawkins, Hopper, es un personaje complejo que lucha con sus propios demonios personales. Su papel como protector de los niños y su valentía al enfrentar amenazas paranormales lo convierten en una figura paterna y líder en la serie.
                         </p>
-                       
+
                     </div>
-                  
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -164,9 +183,9 @@
 
                         <p>La madre de Will y Jonathan, Joyce es una figura central en la serie. Su desesperada búsqueda de su hijo desaparecido y su voluntad de enfrentar lo desconocido la convierten en un personaje profundamente conmovedor.
                         </p>
-                       
+
                     </div>
-                    
+
                 </li>
                 <li class="item-contenedor">
                     <div class="item-contenido">
@@ -178,13 +197,13 @@
 
                         <p>El hermano de Max, Billy, es un personaje complicado. Comienza como un antagonista y un matón, pero más tarde se explora su trasfondo y los problemas que enfrenta en su vida. Su relación con Max y su evolución a lo largo de la serie añaden profundidad a su personaje.
                         </p>
-                       
+
                     </div>
                 </li>
             </ul>
         </section>
 
-       
+
         <button class="scroll-arriba">
             <a href="#">
                 ⇧
@@ -192,8 +211,31 @@
         </button>
     </main>
 
-    <footer>
-        <p>Stranger Things por CineMinds © 2023 | Creado por Oswall Freitez</p>
+    <footer class="py-8 bg-black border-t-red-600 border-t-2">
+        <div class="container mx-auto ">
+
+            <div class="flex justify-evenly w-full mb-8">
+                <img class="h-6" src="assets/imagenes/Stranger World.png" alt="logo">
+                <nav>
+                    <ul class="flex gap-2">
+                        <li> Información </li>
+                        <li> Términos y Condiciones </li>
+                        <li> Política de Privacidad </li>
+                    </ul>
+                </nav>
+                <div class="text-left">
+                    <h3 class="text-left mb-2">Redes sociales</h3>
+                    <div class="flex gap-2">
+                        <img class="h-5" src="assets/imagenes/facebook_logo.svg" alt="logo">
+                        <img class="h-5" src="assets/imagenes/instagram_logo.png" alt="logo">
+                        <img class="h-5" src="assets/imagenes/youtube_logo.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="text-xs">Stranger Things © 2024 | Creado por Oswall Freitez</p>
+            </div>
+        </div>
     </footer>
 </body>
 

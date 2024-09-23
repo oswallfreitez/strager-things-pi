@@ -19,7 +19,7 @@
         }
     </script>
 
-    <title>Personajes | Stranger Things</title>
+    <title>Temporadas | Stranger Things</title>
 </head>
 
 <body>
@@ -51,40 +51,9 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="temporadas">
         <section class="titulo">
-            <h1>Fan art</h1>
-        </section>
-
-        <section class="top-peli-contenedor">
-            <h1>Galeria de arte - Fans</h1>
-            <ul class="top-peli-lista">
-                <li>
-                    <h2>#1: Anonimo</h2>
-                    <figure class="top-peli-imagen">
-                        <img src="assets/imagenes/strangerthingsinicio4.jpg" alt="Art Gallery 1">
-                    </figure>
-                </li>
-                <li>
-                    <h2>#2: Anonimo</h2>
-                    <figure class="top-peli-imagen">
-                        <img src="assets/imagenes/strangerthingsinicio7.png" alt="Art Gallery 2">
-                    </figure>
-                </li>
-                <li>
-                    <h2>#3: Anonimo</h2>
-                    <figure class="top-peli-imagen">
-                        <img src="assets/imagenes/strangerthingsinicio6.jpg" alt="Art Gallery 3">
-                    </figure>
-                </li>
-            </ul>
-        </section>
-
-        <section class="contenedor-carga">
-            <h1>Carga tu arte Stranger</h1>
-            <div class="cuadro-carga">
-                <input type="file">
-            </div>
+            <h1>Temporadas</h1>
         </section>
 
         <button class="scroll-arriba">
