@@ -44,7 +44,7 @@
                         <a href="fanart.php">Fan art</a>
                     </li>
                     <li>
-                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Login</a>
+                        <a href="register.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Register</a>
                     </li>
 
                 </ul>
@@ -57,71 +57,98 @@
                 <h1 class="text-3xl font-bold text-center">Temporadas</h1>
             </div>
         </section>
+        <div class="pt-12 pb-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    <article class="bg-white rounded-2xl flex flex-col items-start justify-between">
+                        <div class="relative w-full">
+                            <img src="assets/imagenes/postertemporada1.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                        </div>
+                        <div class="max-w-xl p-4">
+                            <div class="group relative">
+                                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                    Temporada 1
+                                </h3>
+                                <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                    Resumen: En 1983, Will Byers desaparece en el pueblo de Hawkins, Indiana. Sus amigos, su familia y una misteriosa niña, Eleven, descubren que Will ha sido secuestrado por un monstruo del Upside Down, una dimensión paralela.
+                                </p>
+                                <a href="#" class="text-blue-600 text-sm mt-3">Ver mas</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-2xl flex flex-col items-start justify-between">
+                        <div class="relative w-full">
+                            <img src="assets/imagenes/postertemporada2.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                        </div>
+                        <div class="max-w-xl p-4">
+                            <div class="group relative">
+                                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                    Temporada 2
+                                </h3>
+                                <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                    Resumen: El Upside Down vuelve a Hawkins, y los amigos deben luchar para detener a un nuevo monstruo que ha secuestrado a Will. Eleven, que ahora vive con Joyce y Jonathan Byers, debe aprender a controlar sus poderes para ayudar a sus amigos.
+                                </p>
+                                <a href="#" class="text-blue-600 text-sm mt-3">Ver mas</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-2xl flex flex-col items-start justify-between">
+                        <div class="relative w-full">
+                            <img src="assets/imagenes/postertemporada3.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                        </div>
+                        <div class="max-w-xl p-4">
+                            <div class="group relative">
+                                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
 
-        <section>
-            <ul class="lista-items">
-                <li class="item-contenedor">
-                    <div class="item-contenido">
-                        <h3> Temporada 1</h3>
-                        <p>
-                            Resumen: En 1983, Will Byers desaparece en el pueblo de Hawkins, Indiana. Sus amigos, su familia y una misteriosa niña, Eleven, descubren que Will ha sido secuestrado por un monstruo del Upside Down, una dimensión paralela.
-                        </p>
+                                    Temporada 3
+                                </h3>
+                                <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                    Un verano lleno de diversión y romance en Hawkins se ve interrumpido por la llegada de un nuevo villano, una criatura con poderes eléctricos. Los amigos deben trabajar juntos para detener a la criatura y salvar a Hawkins.
+                                </p>
+                                <a href="#" class="text-blue-600 text-sm mt-3">Ver mas</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-2xl flex flex-col items-start justify-between">
+                        <div class="relative w-full">
+                            <img src="assets/imagenes/postertemporada4.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                        </div>
+                        <div class="max-w-xl p-4">
+                            <div class="group relative">
+                                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
 
-                    </div>
-                    <figure class="item-poster">
-                        <img src="assets/imagenes/postertemporada1.jpg" alt="Poster temporada 1">
-                    </figure>
-                </li>
-                <li class="item-contenedor">
-                    <div class="item-contenido">
-                        <h3>Temporada 2</h3>
-                        <p>
-                            Resumen: El Upside Down vuelve a Hawkins, y los amigos deben luchar para detener a un nuevo monstruo que ha secuestrado a Will. Eleven, que ahora vive con Joyce y Jonathan Byers, debe aprender a controlar sus poderes para ayudar a sus amigos.
-                        </p>
+                                    Temporada 4
+                                </h3>
+                                <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                    Resumen: Un año después, los amigos se enfrentan a un nuevo enemigo, Vecna, un poderoso hechicero que está matando a los adolescentes de Hawkins. Los amigos deben viajar al Upside Down para detener a Vecna y salvar a Hawkins.
+                                </p>
+                                <a href="#" class="text-blue-600 text-sm mt-3">Ver mas</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="bg-white rounded-2xl flex flex-col col-span-2 items-start justify-between">
+                        <div class="relative w-full">
+                            <img src="assets/imagenes/postertemporada5.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                        </div>
+                        <div class="max-w-xl p-4">
+                            <div class="group relative">
+                                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
 
-                    </div>
-                    <figure class="item-poster">
-                        <img src="assets/imagenes/postertemporada2.jpg" alt="Poster temporada 2">
-                    </figure>
-                </li>
-                <li class="item-contenedor">
-                    <div class="item-contenido">
-                        <h3>Temporada 3</h3>
-                        <p>
-                            Un verano lleno de diversión y romance en Hawkins se ve interrumpido por la llegada de un nuevo villano, una criatura con poderes eléctricos. Los amigos deben trabajar juntos para detener a la criatura y salvar a Hawkins.
-                        </p>
+                                    Temporada 5
+                                </h3>
+                                <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                    Resumen: La temporada final de Stranger Things se centrará en la batalla final entre los amigos de Hawkins y Vecna
+                                </p>
+                                <a href="#" class="text-blue-600 text-sm mt-3">Ver mas</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
 
-                    </div>
-                    <figure class="item-poster">
-                        <img src="assets/imagenes/postertemporada3.jpg" alt="Poster temporada 3">
-                    </figure>
-                </li>
-                <li class="item-contenedor">
-                    <div class="item-contenido">
-                        <h3>Temporada 4</h3>
-                        <p>Resumen: Un año después, los amigos se enfrentan a un nuevo enemigo, Vecna, un poderoso hechicero que está matando a los adolescentes de Hawkins. Los amigos deben viajar al Upside Down para detener a Vecna y salvar a Hawkins.
-                        </p>
-
-                    </div>
-                    <figure class="item-poster">
-                        <img src="assets/imagenes/postertemporada4.jpg" alt="Poster temporada 4">
-                    </figure>
-                </li>
-                <li class="item-contenedor">
-                    <div class="item-contenido">
-                        <h3>Temporada 5:</h3>
-                        <p>Resumen: La temporada final de Stranger Things se centrará en la batalla final entre los amigos de Hawkins y Vecna
-                        </p>
-
-                    </div>
-                    <figure class="item-poster">
-                        <img src="assets/imagenes/postertemporada5.jpg" alt="Poster temporada 5">
-                    </figure>
-                </li>
-            </ul>
-        </section>
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
-            <a href="#">
+            <a id="scrollToTop">
                 ⇧
             </a>
         </button>
@@ -153,6 +180,8 @@
             </div>
         </div>
     </footer>
+    
+    <script src="assets/js/scroll.js"></script>
 </body>
 
 </html>

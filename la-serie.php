@@ -44,7 +44,7 @@
                         <a href="fanart.php">Fan art</a>
                     </li>
                     <li>
-                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Login</a>
+                        <a href="register.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Register</a>
                     </li>
 
                 </ul>
@@ -58,8 +58,43 @@
             </div>
         </section>
 
+        <div class="overflow-hidden py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+                    <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
+                        <h2 class="text-3xl font-bold tracking-tight text-white">Stranger Things: Una Aventura Sobrenatural en los 80</h2>
+                        <h3 class="mt-6 text-xl font-bold leading-8 text-gray-200">Sinopsis</h3>
+                        <p class="mt-6 text-base leading-7 text-gray-200">
+                            Stranger Things nos transporta a la década de los 80, a un pequeño pueblo estadounidense llamado Hawkins, donde la tranquila vida de sus habitantes se ve sacudida por la misteriosa desaparición de Will Byers. Esta desaparición desencadena una serie de eventos sobrenaturales que involucran a un grupo de amigos, una niña con poderes telequinéticos y una dimensión alternativa conocida como el "Revés".
+                        </p>
+                        <h3 class="mt-6 text-xl font-bold leading-8 text-gray-200">¿Por qué Ver Stranger Things?</h3>
+                        <p class="mt-6 text-base leading-7 text-gray-200">
+                            Si eres fanático de la ciencia ficción, el terror o simplemente buscas una serie entretenida y llena de nostalgia, Stranger Things es una opción perfecta. Su combinación de elementos sobrenaturales, drama adolescente y referencias a la cultura pop de los 80 la convierten en una experiencia única y adictiva.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+                        <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                            <img src="assets/imagenes/laSerie1.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+                        </div>
+                        <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
+                            <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+                                <img src="assets/imagenes/laSerie2.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+                            </div>
+                            <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+                                <img src="assets/imagenes/laSerie3.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+                            </div>
+                            <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+                                <img src="assets/imagenes/laSerie4.jpeg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
-            <a href="#">
+            <a id="scrollToTop">
                 ⇧
             </a>
         </button>
@@ -91,6 +126,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/scroll.js"></script>
 </body>
 
 </html>

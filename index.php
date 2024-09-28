@@ -45,7 +45,7 @@
                         <a href="fanart.php">Fan art</a>
                     </li>
                     <li>
-                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Login</a>
+                        <a href="register.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Register</a>
                     </li>
 
                 </ul>
@@ -134,7 +134,7 @@
             <h1 class="mb-2 text-xl text-center font-bold">Contactanos!</h1>
 
             <div id="contacto-mensaje" class="bg-black mx-auto w-[580px] text-white hidden flex-col gap-4 rounded-lg border border-red-600 p-6"></div>
-            
+
             <form id="contacto" class="bg-black mx-auto w-[580px] text-white flex flex-col gap-4 rounded-lg border border-red-600 p-6" method="POST">
                 <div class="flex flex-col mb-2">
                     <label for="nombre">
@@ -191,7 +191,7 @@
             });
         </script>
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
-            <a href="#">
+            <a id="scrollToTop">
                 ⇧
             </a>
         </button>
@@ -222,6 +222,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/scroll.js"></script>
 </body>
 
 </html>
