@@ -159,37 +159,7 @@
                 </div>
             </form>
         </section>
-        <script>
-            $(document).ready(function() {
-                $('#contacto').submit(function(e) {
-                    e.preventDefault();
-
-                    $.ajax({
-                        type: 'POST',
-                        url: 'contacto/guardar_contacto.php',
-                        data: $(this).serialize(),
-                        success: (response) => {
-                            $('#contacto-mensaje').html('<p>' + response + '</p>');
-                            $('#contacto-mensaje').css({
-                                display: "flex"
-                            });
-                            $('#contacto').css({
-                                display: "none"
-                            });
-                        },
-                        error: (err) => {
-                            $('#contacto-mensaje').html('<p>Hubo un problema al intentar procesar su solicitud: ' + error + '</p>');
-                            $('#contacto-mensaje').css({
-                                display: "flex"
-                            });
-                            $('#contacto').css({
-                                display: "none"
-                            });
-                        }
-                    })
-                })
-            });
-        </script>
+        <script src="assets/js/guardado_contacto.js"></script>
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
             <a id="scrollToTop">
                 ⇧
