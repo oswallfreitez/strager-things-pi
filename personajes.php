@@ -61,7 +61,7 @@
         <div class="bg-gray-900 pt-12 pb-32">
             <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
                 <ul role="list" class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/eleven.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Eleven</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Millie Bobby Brown</p>
@@ -70,7 +70,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/mike.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Mike Wheeler </h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Finn Wolfhard</p>
@@ -80,7 +80,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/dustin.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Dustin Henderson</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Gaten Matarazzo</p>
@@ -89,7 +89,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/lucas.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Lucas Sinclair
                         </h3>
@@ -100,7 +100,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/will.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Will Byers</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Noah Schnapp</p>
@@ -110,7 +110,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/steve.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Steve Harrington</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Joe Keery</p>
@@ -120,7 +120,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/max.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Max Mayfield</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Sadie Sink
@@ -131,7 +131,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/jim.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Jim Hopper</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: David Harbour</p>
@@ -141,7 +141,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/joyce.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Joyce Byers</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Winona Ryder</p>
@@ -151,7 +151,7 @@
                         </p>
 
                     </li>
-                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600">
+                    <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
                         <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/billy.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Billy Hargrove</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Dacre Montgomery</p>
