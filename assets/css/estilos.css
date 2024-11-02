@@ -43,7 +43,14 @@ h4 {
     background-blend-mode: overlay;
 }
 
-.titulo-encabezado{
+.titulo-encabezado {
+    background-image: url("../imagenes/atardecer_encabezado.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: bottom center;
+}
+
+.titulo-encabezado h1{
     font-family: 'Lora', sans-serif;
     font-weight: bold;
 }
