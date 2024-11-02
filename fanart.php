@@ -52,7 +52,7 @@
         </div>
     </header>
     <main>
-        <section class="titulo-encabezado bg-red-600">
+        <section class="titulo-encabezado bg-gray-800/40">
             <div class="container mx-auto py-12">
                 <h1 class="text-4xl font-bold text-center drop-shadow-lg">
                     Fan Art
