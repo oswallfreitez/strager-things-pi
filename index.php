@@ -42,20 +42,31 @@
                         <a href="personajes.php">Personajes</a>
                     </li>
                     <li>
-                        <a href="fanart.php">Fan art</a>
+                        <a id="cta-fanArt" class="hidden" href="fanart.php">Fan art</a>
                     </li>
                     <li>
-                        <a href="register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
+                        <a id="cta-registrarse" href="register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
                     </li>
                     <li>
-                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
+                        <a id="cta-login" href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
                     </li>
-
+                    <li>
+                        <p id="cta-bienvenido" class="hidden font-light"></p>
+                    </li>
+                    <li>
+                        <a id="cta-logout" href="#" class="hidden rounded-3xl bg-red-600 font-bold py-2 px-8">Logout</a>
+                    </li>
+                   
                 </ul>
             </nav>
         </div>
     </header>
     <main class="">
+        <?php 
+        if (isset($_GET['success'])) {
+            echo "<p class='success-message'>" . $_GET['success'] . "</p>";
+          }
+          ?>
         <section class="hero-background">
             <div class="container mx-auto pt-12 pb-96 grid grid-cols-2 gap-4">
                 <div></div>
@@ -197,6 +208,7 @@
     </footer>
 
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/autenticado.js"></script>
 </body>
 
 </html>

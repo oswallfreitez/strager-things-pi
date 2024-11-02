@@ -20,7 +20,7 @@
         }
     </script>
 
-    <title>Registrarse | Stranger Things</title>
+    <title>Login | Stranger Things</title>
 </head>
 
 <body>
@@ -30,28 +30,14 @@
                 <a class="flex justify-center align-center" href="index.php">
                     <img class="h-12 my-auto py-1 border-t border-b border-red-600" src="assets/imagenes/Stranger World.png" alt="logo">
                 </a>
-                <h2 class="mt-6 text-center text-2xl font-bold leading-9 tracking-tight text-white">Únete a la comunidad Stranger</h2>
+                <h2 class="mt-6 text-center text-2xl font-bold leading-9 tracking-tight text-white">Iniciar Sesión</h2>
             </div>
 
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
                 <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
-                    <div id="registrarse-mensaje" class="bg-red-600 mx-auto w-full text-white hidden flex-col gap-4 rounded-lg p-6"></div>
+                    <div id="login-mensaje" class="bg-red-600 mx-auto w-full text-white hidden flex-col gap-4 rounded-lg p-6 mb-8"></div>
 
-                    <form id="registrarse" class="space-y-4" method="POST">
-                        <div class="grid grid-cols-2 gap-6">
-                            <div>
-                                <label for="nombre" class="block text-sm font-medium leading-6 text-gray-900">Nombre</label>
-                                <div class="mt-2">
-                                    <input id="nombre" name="nombre" type="text" autocomplete="nombre" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6">
-                                </div>
-                            </div>
-                            <div>
-                                <label for="apellido" class="block text-sm font-medium leading-6 text-gray-900">Apellido</label>
-                                <div class="mt-2">
-                                    <input id="apellido" name="apellido" type="text" autocomplete="apellido" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6">
-                                </div>
-                            </div>
-                        </div>
+                    <form id="login" class="space-y-4" method="POST">
                         <div>
                             <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email</label>
                             <div class="mt-2">
@@ -66,25 +52,18 @@
                             </div>
                         </div>
 
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center">
-                                <input id="terminos" name="terminos" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-red-600 focus:ring-red-600">
-                                <label for="terminos" class="ml-3 block text-sm leading-6 text-gray-900">Acepto los términos de servicio</label>
-                            </div>
-                        </div>
-
                         <div>
-                            <input type="submit" class="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600" value="Registrarse" />
+                            <button type="submit" class="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Login</button>
                         </div>
                     </form>
 
-                    <div id="alternativa-autenticacion">
+                    <div>
                         <div class="relative mt-10">
                             <div class="absolute inset-0 flex items-center" aria-hidden="true">
                                 <div class="w-full border-t border-gray-200"></div>
                             </div>
                             <div class="relative flex justify-center text-sm font-medium leading-6">
-                                <span class="bg-white px-6 text-gray-900">o también puedes registrarte usando</span>
+                                <span class="bg-white px-6 text-gray-900">o también puedes iniciar sesión usando</span>
                             </div>
                         </div>
 
@@ -104,7 +83,7 @@
             </div>
         </div>
     </main>
-    <script src="assets/js/registrarse.js"></script>
+    <script src="assets/js/login.js"></script>
 
 </body>
 

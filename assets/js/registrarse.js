@@ -14,10 +14,7 @@ $(document).ready(function () {
                 $('#registrarse').css({
                     display: "none"
                 });
-                $('#alternativa-registro').css({
-                    display: "none"
-                });
-                $('#alternativa-registro').css({
+                $('#alternativa-autenticacion').css({
                     display: "none"
                 });
 
@@ -33,7 +30,7 @@ $(document).ready(function () {
                 $('#registrarse').css({
                     display: "none"
                 });
-                $('#alternativa-registro').css({
+                $('#alternativa-autenticacion').css({
                     display: "none"
                 });
             }

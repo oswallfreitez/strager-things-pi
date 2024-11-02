@@ -41,15 +41,20 @@
                         <a href="personajes.php">Personajes</a>
                     </li>
                     <li>
-                        <a class="bg-red-600 rounded-lg py-1 px-3" href="fanart.php">Fan art</a>
+                        <a id="cta-fanArt" class="hideen bg-red-600 rounded-lg py-1 px-3" href="#">Fan art</a>
                     </li>
                     <li>
-                        <a href="register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
+                        <a id="cta-registrarse" href="register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
                     </li>
                     <li>
-                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
+                        <a id="cta-login" href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
                     </li>
-
+                    <li>
+                        <p id="cta-bienvenido" class="hidden font-light"></p>
+                    </li>
+                    <li>
+                        <a id="cta-logout" href="#" class="hidden rounded-3xl bg-red-600 font-bold py-2 px-8">Logout</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -61,6 +66,12 @@
                     Fan Art
                 </h1>
             </div>
+        </section>
+
+        <section class="container mx-auto pt-12 flex justify-center">
+            <p class="text-center text-lg text-white max-w-4xl">
+                ¡Bienvenido al corazón creativo de la comunidad de Stranger Things! Este espacio exclusivo, diseñado para fans como tú, es tu lienzo para compartir tu pasión por el Upside Down. Aquí podrás subir tus increíbles obras de arte, desde dibujos y pinturas hasta cosplays y fan fiction, y conectar con otros artistas que comparten tu amor por la serie. Explora una galería repleta de talento y descarga tu dosis diaria de inspiración.
+            </p>
         </section>
 
         <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -186,7 +197,7 @@
             </div>
         </div>
 
-        <div class="container mx-auto max-w-2xl py-16">
+        <div class="container mx-auto max-w-2xl pt-14 pb-24">
             <h2 class="text-2xl text-center font-bold mb-6">
                 Carga tu arte Stranger
             </h2>
@@ -242,6 +253,7 @@
     </footer>
 
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/autenticado.js"></script>
 </body>
 
 </html>
