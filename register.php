@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -19,7 +20,7 @@
         }
     </script>
 
-    <title>Temporadas | Stranger Things</title>
+    <title>Registrarse | Stranger Things</title>
 </head>
 
 <body>
@@ -34,7 +35,9 @@
 
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
                 <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
-                    <form class="space-y-6" action="#" method="POST">
+                    <div id="registrarse-mensaje" class="bg-red-600 mx-auto w-full text-white hidden flex-col gap-4 rounded-lg p-6"></div>
+
+                    <form id="registrarse" class="space-y-4" method="POST">
                         <div class="grid grid-cols-2 gap-6">
                             <div>
                                 <label for="nombre" class="block text-sm font-medium leading-6 text-gray-900">Nombre</label>
@@ -71,11 +74,11 @@
                         </div>
 
                         <div>
-                            <button type="submit" class="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Registrar</button>
+                            <input type="submit" class="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600" value="Registrarse" />
                         </div>
                     </form>
 
-                    <div>
+                    <div id="alternativa-registro">
                         <div class="relative mt-10">
                             <div class="absolute inset-0 flex items-center" aria-hidden="true">
                                 <div class="w-full border-t border-gray-200"></div>
@@ -101,6 +104,8 @@
             </div>
         </div>
     </main>
+    <script src="assets/js/registrarse.js"></script>
+
 </body>
 
 </html>

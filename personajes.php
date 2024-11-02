@@ -44,7 +44,10 @@
                         <a href="fanart.php">Fan art</a>
                     </li>
                     <li>
-                        <a href="register.php" class="rounded-3xl bg-red-600 font-bold py-2 px-12">Register</a>
+                        <a href="register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
+                    </li>
+                    <li>
+                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
                     </li>
 
                 </ul>
