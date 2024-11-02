@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -40,4 +41,9 @@ h4 {
     background-image: url("../imagenes/heroimage.jpg");
     background-size: cover;
     background-blend-mode: overlay;
+}
+
+.titulo-encabezado{
+    font-family: 'Lora', sans-serif;
+    font-weight: bold;
 }
