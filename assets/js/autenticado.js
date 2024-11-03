@@ -10,7 +10,8 @@ const usuarioApellido = sessionStorage.getItem('apellido');
 
 
 if (usuarioId) {
-    ctaBienvenido.textContent = `Bievenido, ${usuarioNombre} ${usuarioApellido}`
+    ctaBienvenido.childNodes[1];
+    ctaBienvenido.firstChild.textContent = `Bievenido, ${usuarioNombre} ${usuarioApellido}`
 
     ctaRegistrarse.classList.add("hidden");
     ctaLogin.classList.add("hidden");

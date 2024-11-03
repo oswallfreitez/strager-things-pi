@@ -50,7 +50,20 @@ h4 {
     background-position: bottom center;
 }
 
-.titulo-encabezado h1{
+.titulo-encabezado h1 {
     font-family: 'Lora', sans-serif;
     font-weight: bold;
+}
+
+@keyframes my-ping {
+
+    50%,
+    100% {
+        transform: scale(1.10);
+        opacity: 0;
+    }
+}
+
+.animate-my-ping {
+    animation: my-ping 3s ease-in-out infinite;
 }

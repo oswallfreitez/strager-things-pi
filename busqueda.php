@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -19,7 +20,7 @@
         }
     </script>
 
-    <title>Temporadas | Stranger Things</title>
+    <title>Inicio | Stranger Things</title>
 </head>
 
 <body>
@@ -32,7 +33,7 @@
             <nav class="my-auto font-montserrat">
                 <ul class="flex text-white gap-4">
                     <li>
-                        <a class="bg-red-600 rounded-lg py-1 px-3" href="la-serie.php">La Serie</a>
+                        <a href="la-serie.php">La Serie</a>
                     </li>
                     <li>
                         <a href="temporadas.php">Temporadas</a>
@@ -70,55 +71,38 @@
             </nav>
         </div>
     </header>
-    <main class="temporadas">
-        <section class="titulo-encabezado bg-gray-800/40">
-            <div class="container mx-auto py-12">
-                <h1 class="text-4xl font-bold text-center drop-shadow-lg">La Serie</h1>
-            </div>
-        </section>
+    <main class="">
+        <div class="container mx-auto max-w-[840px] pt-12 pb-24">
+            <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[580px] mb-12">
+                <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
+                    <h1 class="text-black text-2xl text-center mb-4">Escribe lo que quieres buscar...</h1>
 
-        <div class="overflow-hidden py-32">
-            <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-                    <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                        <h2 class="text-3xl font-bold tracking-tight text-white">Stranger Things: Una Aventura Sobrenatural en los 80</h2>
-                        <h3 class="mt-6 text-xl font-bold leading-8 text-gray-200">Sinopsis</h3>
-                        <p class="mt-6 text-base leading-7 text-gray-200">
-                            Stranger Things nos transporta a la década de los 80, a un pequeño pueblo estadounidense llamado Hawkins, donde la tranquila vida de sus habitantes se ve sacudida por la misteriosa desaparición de Will Byers. Esta desaparición desencadena una serie de eventos sobrenaturales que involucran a un grupo de amigos, una niña con poderes telequinéticos y una dimensión alternativa conocida como el "Revés".
-                        </p>
-                        <h3 class="mt-6 text-xl font-bold leading-8 text-gray-200">¿Por qué Ver Stranger Things?</h3>
-                        <p class="mt-6 text-base leading-7 text-gray-200">
-                            Si eres fanático de la ciencia ficción, el terror o simplemente buscas una serie entretenida y llena de nostalgia, Stranger Things es una opción perfecta. Su combinación de elementos sobrenaturales, drama adolescente y referencias a la cultura pop de los 80 la convierten en una experiencia única y adictiva.
-                        </p>
-                    </div>
-                    <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                        <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                            <img src="assets/imagenes/laSerie1.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+                    <form id="buscar" class="flex gap-4" method="GET">
+                        <input id="query" name="query" type="text" autocomplete="query" required class="block w-full rounded-md border-0 px-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6">
+                        <div>
+                            <button type="submit" class="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Buscar</button>
                         </div>
-                        <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                            <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                                <img src="assets/imagenes/laSerie2.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
-                            </div>
-                            <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                                <img src="assets/imagenes/laSerie3.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
-                            </div>
-                            <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                                <img src="assets/imagenes/laSerie4.jpeg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
+            <div id="buscar-mensaje" class="bg-red-600 mx-auto w-full text-white hidden flex-col gap-4 rounded-lg p-6 mb-8"></div>
+
+            <p class="text-center text-2xl" id="resultados-mensaje">
+                
+            </p>
+
+            <ul id="resultados-lista" role="list" class="divide-y divide-gray-100">
+                
+            </ul>
+
+
         </div>
-
-
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
             <a id="scrollToTop">
                 ⇧
             </a>
         </button>
     </main>
-
     <footer class="py-8 bg-black border-t-red-600 border-t-2">
         <div class="container mx-auto ">
 
@@ -148,7 +132,7 @@
 
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/autenticado.js"></script>
-
+    <script src="assets/js/buscador.js"></script>
 </body>
 
 </html>
