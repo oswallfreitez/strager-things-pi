@@ -2,6 +2,7 @@
 include '../db/db_connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
+    // Captura de datos enviados
     $nombre = $_POST["nombre"];
     $apellido = $_POST["apellido"];
     $email = $_POST["email"];
