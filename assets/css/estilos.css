@@ -50,6 +50,13 @@ h4 {
     background-position: bottom center;
 }
 
+.fondo-noche-roja {
+    background-image: url("../imagenes/red_night_background.jpg");
+    background-size: contain;
+    background-blend-mode: multiply;
+    background-position: bottom center;
+}
+
 .titulo-encabezado h1 {
     font-family: 'Lora', sans-serif;
     font-weight: bold;
