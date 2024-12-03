@@ -224,6 +224,38 @@
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/autenticado.js"></script>
 
+    <script>
+        // Obtiene los parámetros de la URL
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get('query');
+
+        // Verifica si hay un término de búsqueda query
+        if (query) {
+            // Función para recorrer y resaltar el término dentro de los nodos de texto
+            function resaltarTexto(node, palabraClave) {
+                // Si el nodo es de tipo texto
+                if (node.nodeType === Node.TEXT_NODE) {
+                    const texto = node.nodeValue;
+                    const regex = new RegExp(`(${palabraClave})`, 'gi'); // Búsqueda insensible a mayúsculas/minúsculas
+                    const textoResaltado = texto.replace(regex, '<span class="bg-red-400 text-black">$1</span>');
+
+                    if (textoResaltado !== texto) {
+                        const span = document.createElement('span');
+                        span.classList = node.parentNode.classList
+                        span.innerHTML = textoResaltado;
+                        node.parentNode.replaceChild(span, node);
+                    }
+                } else {
+                    // Si no es un nodo de texto, recorre sus hijos
+                    node.childNodes.forEach(childNode => resaltarTexto(childNode, palabraClave));
+                }
+            }
+
+            // Selecciona el cuerpo del documento y resalta el texto
+            document.body.childNodes.forEach(node => resaltarTexto(node, query));
+        }
+    </script>
+
 </body>
 
 </html>

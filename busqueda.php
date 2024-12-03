@@ -132,7 +132,7 @@
 
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/autenticado.js"></script>
-    <script src="assets/js/buscador.js"></script>
+    <script type="module" src="assets/js/buscador.js"></script>
 </body>
 
 </html>

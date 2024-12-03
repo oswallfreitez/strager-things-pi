@@ -1,3 +1,5 @@
+import { agregarResaltado } from "./utilidades.js";
+
 $(document).ready(function () {
     $('#buscar').submit(function (e) {
         e.preventDefault();
@@ -13,25 +15,27 @@ $(document).ready(function () {
 
                 const resultadoMensaje = document.getElementById("resultados-mensaje");
 
-                if (respuestaJson.length <= 0) {
+                if (respuestaJson.resultados.length <= 0) {
                     resultadoMensaje.textContent = "No se encontraron datos"
                 }
 
-                respuestaJson.forEach(element => {
+                respuestaJson.resultados.forEach(element => {
                     resultadoMensaje.textContent = "";
-                    
+
                     const tipo = element && element.titulo ? "temporada" : "personaje";
                     const ruta = tipo === "temporada" ? "/temporadas" : "/personajes";
 
                     const li = document.createElement('li');
                     li.classList.add('relative', 'py-5');
 
+                    const textoResaltado = agregarResaltado(element.descripcion, respuestaJson.query)
+
                     li.innerHTML = `
-                    <a href="${ruta}.php" class="flex justify-between gap-x-6">
+                    <a href="${ruta}.php?query=${respuestaJson.query}" class="flex justify-between gap-x-6">
                         <div class="flex min-w-0 gap-x-4">
                             <div class="min-w-0 flex-auto">
-                                <p class="mt-1 flex text-sm">
-                                    ${element.descripcion}
+                                <p class="mt-1 text-sm">
+                                    ${textoResaltado}
                                 </p>
                             </div>
                         </div>

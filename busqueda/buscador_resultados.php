@@ -26,8 +26,13 @@ if ($_SERVER['REQUEST_METHOD'] === "GET") {
     // Fusiona los resultados de cada busqueda
     $resultados = array_merge($resultados_temporadas, $resultados_personajes);
 
+    $respuesta = [
+        "query" => $query,
+        "resultados" => $resultados
+    ];
+
     // Envía la información a front
-    echo json_encode($resultados);
+    echo json_encode($respuesta);
 
     $stmt_temporadas->close();
     $stmt_personajes->close();
