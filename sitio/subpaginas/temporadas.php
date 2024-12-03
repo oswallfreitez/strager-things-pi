@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -25,8 +25,8 @@
 <body>
     <header class="bg-black">
         <div class="container mx-auto flex justify-between align-center py-4">
-            <a class="flex align-center" href="index.php">
-                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="assets/imagenes/Stranger World.png" alt="logo">
+            <a class="flex align-center" href="../index.php">
+                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="../imagenes/Stranger World.png" alt="logo">
             </a>
 
             <nav class="my-auto font-montserrat">
@@ -81,7 +81,7 @@
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     <article class="bg-white rounded-2xl flex flex-col items-start justify-between transition ease-in-out delay-50 duration-300  hover:-translate-y-1 hover:scale-105">
                         <div class="relative w-full">
-                            <img src="assets/imagenes/postertemporada1.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                            <img src="../imagenes/postertemporada1.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
                         </div>
                         <div class="max-w-xl p-4">
                             <div class="group relative">
@@ -91,13 +91,13 @@
                                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                                     Resumen: En 1983, Will Byers desaparece en el pueblo de Hawkins, Indiana. Sus amigos, su familia y una misteriosa niña, Eleven, descubren que Will ha sido secuestrado por un monstruo del Upside Down, una dimensión paralela.
                                 </p>
-                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 1" data-modal-contenido="Resumen: En 1983, Will Byers desaparece en el pueblo de Hawkins, Indiana. Sus amigos, su familia y una misteriosa niña, Eleven, descubren que Will ha sido secuestrado por un monstruo del Upside Down, una dimensión paralela." data-modal-imagen="assets/imagenes/postertemporada1.jpg">Ver mas</button>
+                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 1" data-modal-contenido="Resumen: En 1983, Will Byers desaparece en el pueblo de Hawkins, Indiana. Sus amigos, su familia y una misteriosa niña, Eleven, descubren que Will ha sido secuestrado por un monstruo del Upside Down, una dimensión paralela." data-modal-imagen="../imagenes/postertemporada1.jpg">Ver mas</button>
                             </div>
                         </div>
                     </article>
                     <article class="bg-white rounded-2xl flex flex-col items-start justify-between transition ease-in-out delay-50 duration-300  hover:-translate-y-1 hover:scale-105">
                         <div class="relative w-full">
-                            <img src="assets/imagenes/postertemporada2.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                            <img src="../imagenes/postertemporada2.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
                         </div>
                         <div class="max-w-xl p-4">
                             <div class="group relative">
@@ -107,13 +107,13 @@
                                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                                     Resumen: El Upside Down vuelve a Hawkins, y los amigos deben luchar para detener a un nuevo monstruo que ha secuestrado a Will. Eleven, que ahora vive con Joyce y Jonathan Byers, debe aprender a controlar sus poderes para ayudar a sus amigos.
                                 </p>
-                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 2" data-modal-contenido="Resumen: El Upside Down vuelve a Hawkins, y los amigos deben luchar para detener a un nuevo monstruo que ha secuestrado a Will. Eleven, que ahora vive con Joyce y Jonathan Byers, debe aprender a controlar sus poderes para ayudar a sus amigos." data-modal-imagen="assets/imagenes/postertemporada2.jpg">Ver mas</button>
+                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 2" data-modal-contenido="Resumen: El Upside Down vuelve a Hawkins, y los amigos deben luchar para detener a un nuevo monstruo que ha secuestrado a Will. Eleven, que ahora vive con Joyce y Jonathan Byers, debe aprender a controlar sus poderes para ayudar a sus amigos." data-modal-imagen="../imagenes/postertemporada2.jpg">Ver mas</button>
                             </div>
                         </div>
                     </article>
                     <article class="bg-white rounded-2xl flex flex-col items-start justify-between transition ease-in-out delay-50 duration-300  hover:-translate-y-1 hover:scale-105">
                         <div class="relative w-full">
-                            <img src="assets/imagenes/postertemporada3.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                            <img src="../imagenes/postertemporada3.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
                         </div>
                         <div class="max-w-xl p-4">
                             <div class="group relative">
@@ -124,13 +124,13 @@
                                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                                     Un verano lleno de diversión y romance en Hawkins se ve interrumpido por la llegada de un nuevo villano, una criatura con poderes eléctricos. Los amigos deben trabajar juntos para detener a la criatura y salvar a Hawkins.
                                 </p>
-                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 3" data-modal-contenido=" Un verano lleno de diversión y romance en Hawkins se ve interrumpido por la llegada de un nuevo villano, una criatura con poderes eléctricos. Los amigos deben trabajar juntos para detener a la criatura y salvar a Hawkins." data-modal-imagen="assets/imagenes/postertemporada3.jpg">Ver mas</button>
+                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 3" data-modal-contenido=" Un verano lleno de diversión y romance en Hawkins se ve interrumpido por la llegada de un nuevo villano, una criatura con poderes eléctricos. Los amigos deben trabajar juntos para detener a la criatura y salvar a Hawkins." data-modal-imagen="../imagenes/postertemporada3.jpg">Ver mas</button>
                             </div>
                         </div>
                     </article>
                     <article class="bg-white rounded-2xl flex flex-col items-start justify-between transition ease-in-out delay-50 duration-300  hover:-translate-y-1 hover:scale-105">
                         <div class="relative w-full">
-                            <img src="assets/imagenes/postertemporada4.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                            <img src="../imagenes/postertemporada4.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
                         </div>
                         <div class="max-w-xl p-4">
                             <div class="group relative">
@@ -141,13 +141,13 @@
                                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                                     Resumen: Un año después, los amigos se enfrentan a un nuevo enemigo, Vecna, un poderoso hechicero que está matando a los adolescentes de Hawkins. Los amigos deben viajar al Upside Down para detener a Vecna y salvar a Hawkins.
                                 </p>
-                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 4" data-modal-contenido="Resumen: Un año después, los amigos se enfrentan a un nuevo enemigo, Vecna, un poderoso hechicero que está matando a los adolescentes de Hawkins. Los amigos deben viajar al Upside Down para detener a Vecna y salvar a Hawkins." data-modal-imagen="assets/imagenes/postertemporada4.jpg">Ver mas</button>
+                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 4" data-modal-contenido="Resumen: Un año después, los amigos se enfrentan a un nuevo enemigo, Vecna, un poderoso hechicero que está matando a los adolescentes de Hawkins. Los amigos deben viajar al Upside Down para detener a Vecna y salvar a Hawkins." data-modal-imagen="../imagenes/postertemporada4.jpg">Ver mas</button>
                             </div>
                         </div>
                     </article>
                     <article class="bg-white rounded-2xl flex flex-col col-span-2 items-start justify-between transition ease-in-out delay-50 duration-300  hover:-translate-y-1 hover:scale-105">
                         <div class="relative w-full">
-                            <img src="assets/imagenes/postertemporada5.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
+                            <img src="../imagenes/postertemporada5.jpg" alt="" class="w-full rounded-t-2xl bg-gray-100 object-cover ">
                         </div>
                         <div class="max-w-xl p-4">
                             <div class="group relative">
@@ -158,7 +158,7 @@
                                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                                     Resumen: La temporada final de Stranger Things se centrará en la batalla final entre los amigos de Hawkins y Vecna
                                 </p>
-                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 5" data-modal-contenido=" Resumen: La temporada final de Stranger Things se centrará en la batalla final entre los amigos de Hawkins y Vecna." data-modal-imagen="assets/imagenes/postertemporada5.jpg">Ver mas</button>
+                                <button id="ver-mas" class="text-blue-600 text-sm mt-3" data-modal-titulo="Temporada 5" data-modal-contenido=" Resumen: La temporada final de Stranger Things se centrará en la batalla final entre los amigos de Hawkins y Vecna." data-modal-imagen="../imagenes/postertemporada5.jpg">Ver mas</button>
                             </div>
                         </div>
                     </article>
@@ -204,7 +204,7 @@
         <div class="container mx-auto ">
 
             <div class="flex justify-evenly w-full mb-8">
-                <img class="h-6" src="assets/imagenes/Stranger World.png" alt="logo">
+                <img class="h-6" src="../imagenes/Stranger World.png" alt="logo">
                 <nav>
                     <ul class="flex gap-2">
                         <li> Información </li>
@@ -215,9 +215,9 @@
                 <div class="text-left">
                     <h3 class="text-left mb-2">Redes sociales</h3>
                     <div class="flex gap-2">
-                        <img class="h-5" src="assets/imagenes/facebook_logo.svg" alt="logo">
-                        <img class="h-5" src="assets/imagenes/instagram_logo.png" alt="logo">
-                        <img class="h-5" src="assets/imagenes/youtube_logo.png" alt="logo">
+                        <img class="h-5" src="../imagenes/facebook_logo.svg" alt="logo">
+                        <img class="h-5" src="../imagenes/instagram_logo.png" alt="logo">
+                        <img class="h-5" src="../imagenes/youtube_logo.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -227,9 +227,9 @@
         </div>
     </footer>
 
-    <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/modal-temporadas.js"></script>
-    <script src="assets/js/autenticado.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/modal-temporadas.js"></script>
+    <script src="../js/autenticado.js"></script>
 
     <script>
         // Obtiene los parámetros de la URL

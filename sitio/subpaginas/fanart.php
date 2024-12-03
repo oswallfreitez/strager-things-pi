@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -25,8 +25,8 @@
 <body>
     <header class="bg-black">
         <div class="container mx-auto flex justify-between align-center py-4">
-            <a class="flex align-center" href="index.php">
-                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="assets/imagenes/Stranger World.png" alt="logo">
+            <a class="flex align-center" href="../index.php">
+                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="../imagenes/Stranger World.png" alt="logo">
             </a>
 
             <nav class="my-auto font-montserrat">
@@ -100,7 +100,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio1.png" alt="Fan art 1" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio1.png" alt="Fan art 1" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
                 <div class="group relative">
@@ -115,7 +115,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio2.jpg" alt="Fan art 2" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio2.jpg" alt="Fan art 2" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
                 <div class="group relative">
@@ -130,7 +130,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio3.png" alt="Fan art 3" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio3.png" alt="Fan art 3" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
                 <div class="group relative">
@@ -145,7 +145,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio4.jpg" alt="Fan art 4" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio4.jpg" alt="Fan art 4" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio5.jpg" alt="Fan art 5" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio5.jpg" alt="Fan art 5" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
                 <div class="group relative">
@@ -181,7 +181,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio6.jpg" alt="Fan art 6" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio6.jpg" alt="Fan art 6" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
                 <div class="group relative">
@@ -196,7 +196,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio7.png" alt="Fan art 7" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio7.png" alt="Fan art 7" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
                 <div class="group relative">
@@ -211,7 +211,7 @@
                     </div>
                     <div class="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                         <span class="z-10 animate-my-ping absolute inline-flex h-full w-full rounded-md bg-red-600 opacity-60"></span>
-                        <img src="assets/imagenes/strangerthingsinicio8.jpg" alt="Fan art 8" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
+                        <img src="../imagenes/strangerthingsinicio8.jpg" alt="Fan art 8" class="relative z-20 h-full w-full object-cover object-top lg:h-full lg:w-full">
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@
         <div class="container mx-auto ">
 
             <div class="flex justify-evenly w-full mb-8">
-                <img class="h-6" src="assets/imagenes/Stranger World.png" alt="logo">
+                <img class="h-6" src="../imagenes/Stranger World.png" alt="logo">
                 <nav>
                     <ul class="flex gap-2">
                         <li> Información </li>
@@ -260,9 +260,9 @@
                 <div class="text-left">
                     <h3 class="text-left mb-2">Redes sociales</h3>
                     <div class="flex gap-2">
-                        <img class="h-5" src="assets/imagenes/facebook_logo.svg" alt="logo">
-                        <img class="h-5" src="assets/imagenes/instagram_logo.png" alt="logo">
-                        <img class="h-5" src="assets/imagenes/youtube_logo.png" alt="logo">
+                        <img class="h-5" src="../imagenes/facebook_logo.svg" alt="logo">
+                        <img class="h-5" src="../imagenes/instagram_logo.png" alt="logo">
+                        <img class="h-5" src="../imagenes/youtube_logo.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -272,8 +272,8 @@
         </div>
     </footer>
 
-    <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/autenticado.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/autenticado.js"></script>
 </body>
 
 </html>

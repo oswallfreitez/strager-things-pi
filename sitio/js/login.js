@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: 'autenticacion/login.php',
+            url: '../php/autenticacion/login.php',
             data: $(this).serialize(),
             success: (response) => {
                 const respuestaJson = JSON.parse(response)
@@ -13,7 +13,7 @@ $(document).ready(function () {
                     sessionStorage.setItem('nombre', respuestaJson.nombre);
                     sessionStorage.setItem('apellido', respuestaJson.apellido);
 
-                    window.location.href = "/index.php"
+                    window.location.href = "../index.php"
                 } else {
                     $('#login-mensaje').html('<p>' + respuestaJson.error + '</p>');
                     $('#login-mensaje').css({

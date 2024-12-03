@@ -6,7 +6,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'GET',
-            url: 'busqueda/buscador_resultados.php',
+            url: '../php/busqueda/buscador_resultados.php',
             data: $(this).serialize(),
             success: (response) => {
                 const respuestaJson = JSON.parse(response)
@@ -23,7 +23,7 @@ $(document).ready(function () {
                     resultadoMensaje.textContent = "";
 
                     const tipo = element && element.titulo ? "temporada" : "personaje";
-                    const ruta = tipo === "temporada" ? "/temporadas" : "/personajes";
+                    const ruta = tipo === "temporada" ? "temporadas" : "personajes";
 
                     const li = document.createElement('li');
                     li.classList.add('relative', 'py-5');

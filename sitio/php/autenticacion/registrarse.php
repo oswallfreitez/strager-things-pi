@@ -1,5 +1,5 @@
 <?php
-include '../db/db_connection.php';
+include '../db_connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
     // Captura de datos enviados

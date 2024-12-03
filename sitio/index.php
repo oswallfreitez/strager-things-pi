@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -27,28 +27,28 @@
     <header class="bg-black">
         <div class="container mx-auto flex justify-between align-center py-4">
             <a class="flex align-center" href="index.php">
-                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="assets/imagenes/Stranger World.png" alt="logo">
+                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="imagenes/Stranger World.png" alt="logo">
             </a>
 
             <nav class="my-auto font-montserrat">
                 <ul class="flex text-white gap-4">
                     <li>
-                        <a href="la-serie.php">La Serie</a>
+                        <a href="subpaginas/la-serie.php">La Serie</a>
                     </li>
                     <li>
-                        <a href="temporadas.php">Temporadas</a>
+                        <a href="subpaginas/temporadas.php">Temporadas</a>
                     </li>
                     <li>
-                        <a href="personajes.php">Personajes</a>
+                        <a href="subpaginas/personajes.php">Personajes</a>
                     </li>
                     <li id="cta-fanArt" class="hidden">
-                        <a href="fanart.php">Fan art</a>
+                        <a href="subpaginas/fanart.php">Fan art</a>
                     </li>
                     <li id="cta-registrarse">
-                        <a href="register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
+                        <a href="subpaginas/register.php" class="rounded-3xl bg-transparent border-red-600 border-2 font-bold py-2 px-8">Registrarse</a>
                     </li>
                     <li id="cta-login">
-                        <a href="login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
+                        <a href="subpaginas/login.php" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Login</a>
                     </li>
                     <li class="font-light">
                         |
@@ -59,7 +59,7 @@
                         <a href="#" class="rounded-3xl bg-red-600 font-bold py-2 px-8">Logout</a>
                     </li>
                     <li class="flex items-center">
-                        <a href="busqueda.php">
+                        <a href="subpaginas/busqueda.php">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" height="16px" width="16px" version="1.1" id="Capa_1" viewBox="0 0 490.4 490.4" xml:space="preserve">
                                 <g>
                                     <path d="M484.1,454.796l-110.5-110.6c29.8-36.3,47.6-82.8,47.6-133.4c0-116.3-94.3-210.6-210.6-210.6S0,94.496,0,210.796   s94.3,210.6,210.6,210.6c50.8,0,97.4-18,133.8-48l110.5,110.5c12.9,11.8,25,4.2,29.2,0C492.5,475.596,492.5,463.096,484.1,454.796z    M41.1,210.796c0-93.6,75.9-169.5,169.5-169.5s169.6,75.9,169.6,169.5s-75.9,169.5-169.5,169.5S41.1,304.396,41.1,210.796z" />
@@ -137,19 +137,19 @@
                 <li class="text-center mx-auto">
                     <h2>#1: Anonimo</h2>
                     <figure class="">
-                        <img class="w-52" src="assets/imagenes/strangerthingsinicio1.png" alt="Art Gallery 1">
+                        <img class="w-52" src="imagenes/strangerthingsinicio1.png" alt="Art Gallery 1">
                     </figure>
                 </li>
                 <li class="text-center mx-auto">
                     <h2>#2: Anonimo</h2>
                     <figure class="">
-                        <img class="w-52" src="assets/imagenes/strangerthingsinicio2.jpg" alt="Art Gallery 2">
+                        <img class="w-52" src="imagenes/strangerthingsinicio2.jpg" alt="Art Gallery 2">
                     </figure>
                 </li>
                 <li class="text-center mx-auto">
                     <h2>#3: Anonimo</h2>
                     <figure class="">
-                        <img class="w-52" src="assets/imagenes/strangerthingsinicio3.png" alt="Art Gallery 3">
+                        <img class="w-52" src="imagenes/strangerthingsinicio3.png" alt="Art Gallery 3">
                     </figure>
                 </li>
             </ul>
@@ -183,7 +183,7 @@
                 </div>
             </form>
         </section>
-        <script src="assets/js/guardado_contacto.js"></script>
+        <script src="js/guardado_contacto.js"></script>
         <button class="border border-red-600 shadow-md shadow-red-600 fixed bottom-4 right-4 py-3 px-5 rounded-lg">
             <a id="scrollToTop">
                 ⇧
@@ -194,7 +194,7 @@
         <div class="container mx-auto ">
 
             <div class="flex justify-evenly w-full mb-8">
-                <img class="h-6" src="assets/imagenes/Stranger World.png" alt="logo">
+                <img class="h-6" src="imagenes/Stranger World.png" alt="logo">
                 <nav>
                     <ul class="flex gap-2">
                         <li> Información </li>
@@ -205,9 +205,9 @@
                 <div class="text-left">
                     <h3 class="text-left mb-2">Redes sociales</h3>
                     <div class="flex gap-2">
-                        <img class="h-5" src="assets/imagenes/facebook_logo.svg" alt="logo">
-                        <img class="h-5" src="assets/imagenes/instagram_logo.png" alt="logo">
-                        <img class="h-5" src="assets/imagenes/youtube_logo.png" alt="logo">
+                        <img class="h-5" src="imagenes/facebook_logo.svg" alt="logo">
+                        <img class="h-5" src="imagenes/instagram_logo.png" alt="logo">
+                        <img class="h-5" src="imagenes/youtube_logo.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -217,8 +217,8 @@
         </div>
     </footer>
 
-    <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/autenticado.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/autenticado.js"></script>
 </body>
 
 </html>

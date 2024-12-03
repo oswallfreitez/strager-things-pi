@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: 'autenticacion/registrarse.php',
+            url: '../php/autenticacion/registrarse.php',
             data: $(this).serialize(),
             success: (response) => {
                 $('#registrarse-mensaje').html('<p>' + response + '</p>');
@@ -19,7 +19,7 @@ $(document).ready(function () {
                 });
 
                 setTimeout(function () {
-                    window.location.href = "/login.php";
+                    window.location.href = "login.php";
                 }, 4000);
             },
             error: (err) => {

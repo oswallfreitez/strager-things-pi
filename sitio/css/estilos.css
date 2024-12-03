@@ -12,7 +12,7 @@ body {
 }
 
 .main-background {
-    background-image: url("../imagenes/background.jpg");
+    background-image: url("../../imagenes/background.jpg");
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6)

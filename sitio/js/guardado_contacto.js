@@ -4,7 +4,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: 'POST',
-            url: 'contacto/guardar_contacto.php',
+            url: 'php/contacto/guardar_contacto.php',
             data: $(this).serialize(),
             success: (response) => {
                 $('#contacto-mensaje').html('<p>' + response + '</p>');

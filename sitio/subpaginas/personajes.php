@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -25,8 +25,8 @@
 <body>
     <header class="bg-black">
         <div class="container mx-auto flex justify-between align-center py-4">
-            <a class="flex align-center" href="index.php">
-                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="assets/imagenes/Stranger World.png" alt="logo">
+            <a class="flex align-center" href="../index.php">
+                <img class="h-10 my-auto py-1 border-t border-b border-red-600" src="../imagenes/Stranger World.png" alt="logo">
             </a>
 
             <nav class="my-auto font-montserrat">
@@ -81,7 +81,7 @@
             <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
                 <ul role="list" class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/eleven.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/eleven.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Eleven</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Millie Bobby Brown</p>
                         <p class="leading-6 mt-6 align-right">
@@ -90,7 +90,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/mike.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/mike.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Mike Wheeler </h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Finn Wolfhard</p>
                         <p class="leading-6 mt-6">
@@ -100,7 +100,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/dustin.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/dustin.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Dustin Henderson</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Gaten Matarazzo</p>
                         <p class="leading-6 mt-6">
@@ -109,7 +109,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/lucas.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/lucas.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Lucas Sinclair
                         </h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Caleb McLaughlin</p>
@@ -120,7 +120,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/will.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/will.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Will Byers</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Noah Schnapp</p>
                         <p class="leading-6 mt-6">
@@ -130,7 +130,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/steve.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/steve.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Steve Harrington</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Joe Keery</p>
                         <p class="leading-6 mt-6">
@@ -140,7 +140,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/max.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/max.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Max Mayfield</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Sadie Sink
                         </p>
@@ -151,7 +151,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/jim.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/jim.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Jim Hopper</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: David Harbour</p>
                         <p class="leading-6 mt-6">
@@ -161,7 +161,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/joyce.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/joyce.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Joyce Byers</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Winona Ryder</p>
                         <p class="leading-6 mt-6">
@@ -171,7 +171,7 @@
 
                     </li>
                     <li class="rounded-2xl bg-gray-800 px-8 py-10 border border-red-600 transition ease-in-out delay-50 duration-200  hover:-translate-y-1 hover:scale-103">
-                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="assets/imagenes/billy.jpg" alt="">
+                        <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="../imagenes/billy.jpg" alt="">
                         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-red-600">Billy Hargrove</h3>
                         <p class="text-sm leading-6 text-gray-400">Interpretado por: Dacre Montgomery</p>
                         <p class="leading-6 mt-6">
@@ -198,7 +198,7 @@
         <div class="container mx-auto ">
 
             <div class="flex justify-evenly w-full mb-8">
-                <img class="h-6" src="assets/imagenes/Stranger World.png" alt="logo">
+                <img class="h-6" src="../imagenes/Stranger World.png" alt="logo">
                 <nav>
                     <ul class="flex gap-2">
                         <li> Información </li>
@@ -209,9 +209,9 @@
                 <div class="text-left">
                     <h3 class="text-left mb-2">Redes sociales</h3>
                     <div class="flex gap-2">
-                        <img class="h-5" src="assets/imagenes/facebook_logo.svg" alt="logo">
-                        <img class="h-5" src="assets/imagenes/instagram_logo.png" alt="logo">
-                        <img class="h-5" src="assets/imagenes/youtube_logo.png" alt="logo">
+                        <img class="h-5" src="../imagenes/facebook_logo.svg" alt="logo">
+                        <img class="h-5" src="../imagenes/instagram_logo.png" alt="logo">
+                        <img class="h-5" src="../imagenes/youtube_logo.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -221,8 +221,8 @@
         </div>
     </footer>
 
-    <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/autenticado.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/autenticado.js"></script>
 
     <script>
         // Obtiene los parámetros de la URL

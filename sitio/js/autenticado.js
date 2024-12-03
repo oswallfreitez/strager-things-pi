@@ -23,5 +23,9 @@ if (usuarioId) {
 
 ctaLogout.addEventListener("click", () => {
     sessionStorage.clear();
-    window.location.href = "/index.php"
+    if (window.location.href.includes("index.php")) {
+        window.location.href = "index.php"
+    } else {
+        window.location.href = "../index.php"
+    }
 })
